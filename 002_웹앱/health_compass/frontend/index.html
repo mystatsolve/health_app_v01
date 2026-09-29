@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>건강나침반</title>
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- 2a 온보딩 -->
+<section id="screen-onboarding" class="screen" hidden></section>
+
+<!-- 2b~2f 위저드 -->
+<section id="screen-wizard" class="screen" hidden></section>
+
+<!-- 2g~2j 결과 (상단 탭 공유) -->
+<section id="screen-results" class="screen" hidden></section>
+<section id="screen-detail" class="screen" hidden></section>
+<section id="screen-suggest" class="screen" hidden></section>
+<section id="screen-history" class="screen" hidden></section>
+
+<div id="toast" role="status" aria-live="polite"></div>
+<div id="route-loading" role="status" aria-live="polite" hidden>최신 입력으로 계산 중…</div>
+
+<script type="module" src="js/app.js"></script>
+</body>
+</html>
